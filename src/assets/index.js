@@ -9,10 +9,12 @@ import events1 from './events1.jpg';
 import fooddelivery from './fooddelivery.jpg';
 import mocktails from './mocktails.jpg';
 import training from './training.jpg';
+import rating1 from './rating1.png';
 
 
 
 export const assets = {
+    rating1,
     chef1,
     chef2,
     catering,
