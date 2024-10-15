@@ -6,14 +6,14 @@ import { MdClose } from "react-icons/md";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div>
+    <div className="bg-white">
       {/* Desktop navigation */}
-      <nav className="hidden md:flex justify-between mx-10 items-center pr-10">
+      <nav className="hidden md:flex justify-between mx-auto items-center pr-10 h-32 max-w-6xl">
         <div className="w-40">
           <img src={logo} />
         </div>
         <div>
-          <ul className="md:flex gap-10 justify-center items-center font-sans font-semibold hidden text-lg tracking-wide mr-10">
+          <ul className="md:flex gap-10 justify-center items-center font-sans font-semibold hidden text-lg tracking-wide">
             <li className="hover:text-customPurple">
               <a
                 href="#"
