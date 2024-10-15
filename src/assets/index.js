@@ -1,3 +1,4 @@
+import logo from './logo.png';
 import chef1 from './chef1.jpg';
 import chef2 from './chef2.jpg';
 import catering from './catering.jpg';
@@ -14,6 +15,7 @@ import rating1 from './rating1.png';
 
 
 export const assets = {
+    logo,
     rating1,
     chef1,
     chef2,
