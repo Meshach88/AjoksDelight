@@ -3,7 +3,7 @@ import { assets } from '../assets'
 
 const Services = () => {
   return (
-    <div className='flex justify-center items-center'>
+    <div className='flex justify-center items-center scroll-m-10' id='services'>
         <section className='max-w-6xl flex flex-col items-center justify-center mb-5 md:mb-16'>
             <h1 className='font-bold text-2xl sm:text-4xl text-center mb-2'>Our Services</h1>
             <hr className='border-2 border-black w-10 rounded-xl md:mb-10'/>

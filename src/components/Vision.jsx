@@ -3,7 +3,7 @@ import { assets } from "../assets";
 
 const Vision = () => {
   return (
-    <div className="mb-5 md:mb-16 md:-ml-5">
+    <div className="mb-5 md:mb-16 md:-ml-5 scroll-m-2" id="vision">
       <section className="flex flex-col-reverse gap-2 md:flex-row justify-center max-w-5xl items-center mx-auto mt-5 md:mt-20">
         <article className="flex flex-col gap-4 md:w-1/2 justify-center items-center text-center my-5">
           <div className="bg-slate-300 rounded-lg p-5 mx-5 my-1 md:mr-5 md:my-5 transition-all duration-500 hover:shadow-lg">
